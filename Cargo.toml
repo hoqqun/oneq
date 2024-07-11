@@ -1,0 +1,9 @@
+[package]
+name = "oneq"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chatgpt_rs = "1.2.3"
+clap = { version = "4.5.9", features = ["derive"] }
+tokio = { version = "1.38.0", features = ["full"] }
